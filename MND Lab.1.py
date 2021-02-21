@@ -93,6 +93,7 @@ print("Y_minus = ", Y_minus)
 #Y_minus_max = max(Y_minus)
 #print(Y_minus_max)
 
+
 for i in range(0, 8):
     if Y_define[i] == str(max(Y_minus)):
         print("Точка плану, що задовольняє критерію вибору оптимальності = [", X1[i], ",", X2[i], ",", X3[i], "]")
